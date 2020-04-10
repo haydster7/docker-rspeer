@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 5
+sleep 15
 lxterminal --command='/root/rspeer-launcher/rspeer-launcher-x64-linux' &
 
 if [ ! -f /root/RSPeer/cache/misc_new ]
