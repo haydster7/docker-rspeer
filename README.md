@@ -12,3 +12,5 @@ novnc options as per
 https://github.com/centminmod/docker-ubuntu-vnc-desktop
 
 haydster7/rspeer
+
+e.g. docker run -it -v ~/rspeer-data/scripts:/rootRSPeer/scripts -p 6080:80 -p 5900:5900 -e VNC_PASSWORD=mypassword haydster7/rspeer
